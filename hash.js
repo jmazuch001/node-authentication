@@ -14,28 +14,6 @@ const jwt = require ('jsonwebtoken');
 
 
 
-///////////////////////////////////////////////////////////////////////
-// someone can decode the token, so in the real world, we do this: 
-// const secret = 'supersecret';
-// const secretSalt = 'o987uq2934i5nfnasdlfkj'
-
-// var user = {
-//     id:1,
-//     token: MD5('password945').toString() + secretSalt
-// }
-
-// take the newly formed token and add the variable
-// const receivedToken = 'd119e1994f1752fea19798c673d29884o987uq2934i5nfnasdlfkj';
-
-// if (receivedToken === user.token) {
-//     console.log('move forward')
-// }
-
-
-// console.log(user)
-// console.log(user.token)
-
-///////////////////////////////////////////////////////////////////////
 
 let id = "10000";
 const secret = 'supersecret';
